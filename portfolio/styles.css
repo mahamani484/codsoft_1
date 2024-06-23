@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about-section, .skills-section, .projects-section, .resume-section, .contact-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section li {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.projects-section .project {
+    margin: 20px 0;
+}
+
+.projects-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.resume-section a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.resume-section a:hover {
+    background: #0056b3;
+}
+
+.contact-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+contact-section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
